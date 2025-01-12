@@ -1,25 +1,27 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
 
 const CalculatorDisplay = ({ input }) => (
   <View style={styles.top}>
-    <Text style={styles.input}>{input}</Text>
+    <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+      <Text style={styles.input}>{input}</Text>
+    </ScrollView>
   </View>
 );
 
 const styles = StyleSheet.create({
   top: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'flex-end',
-    backgroundColor: '#000',
     padding: 20,
+    backgroundColor: '#000',
     borderRadius: 5,
-    marginBottom: 10,
+    borderWidth: 2,
+    borderColor: '#fff',
+    margin: 10,
   },
   input: {
     fontSize: 28,
     color: '#fff',
+    minWidth: '100%',
   },
 });
 

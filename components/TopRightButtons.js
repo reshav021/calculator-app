@@ -32,13 +32,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     marginHorizontal: 5,
-    alignItems: 'center', 
-  },
-  modeButtonText: {
-    color: '#fff',
-    fontWeight: 'bold',
-    fontSize: 14,
-    marginLeft: 5, 
+    alignItems: 'center',
   },
 });
 
