@@ -12,12 +12,12 @@ A simple calculator app built with Expo and React Native.
 ### Run the App
 
 Clone the repository:
-    git clone <repository-url>
+- git clone <repository-url>
 
 Navigate to the project directory:
-    cd calculator-app
+- cd calculator-app
 
 Start the Expo development server:
-    npx expo start
+- npx expo start
 
 Scan the QR code with the Expo Go app (available on the Play Store) to view the app on your device.
